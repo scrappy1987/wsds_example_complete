@@ -1,0 +1,10 @@
+<div class="item panel panel-default" data-ng-controller="itemController as itemCtrl">
+    <div class="panel-heading">Item view</div>
+    <div class="panel-body">
+        <ul class="list-group">
+            <li class="list-group-item" ng-repeat="aItem in itemCtrl.items">
+               <b>Item name:</b>  {{ aItem.name }}
+            </li>
+        </ul>
+    </div>
+</div>
